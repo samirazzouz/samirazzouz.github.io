@@ -287,7 +287,8 @@ nav ul li a {
 @media screen and (max-width: 360px) {
 	.homeMe {
 
-		margin-top: 20vh;
+		margin-top: 10vh;
+		margin-bottom: 5vh;
 	}
 
 	h1 {
