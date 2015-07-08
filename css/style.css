@@ -1,0 +1,367 @@
+body {
+	background-color: #214775;
+}
+
+header {
+
+	background-color: #183454;
+	min-height: 50px;
+	padding: 3px;
+}
+
+#logoHeader {
+	display: block;
+}
+
+#logoHeader img {
+
+	width: 55px;
+	display: block;
+	margin: auto;
+
+}
+
+#rightHeader {
+	display: inline-block;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+
+.linkedIn {
+	color: #fff;
+	margin: 3px;
+	margin-top: 10px;
+}
+
+.homeMe {
+
+	margin-top: 10%;
+}
+
+.homeMe img {
+
+	max-height: 300px;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+	opacity: .9;
+	margin-bottom: 25px;
+}
+h1 {
+
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	font-family: 'Droid Sans';
+	font-size: 5em;
+	font-weight: 700;
+}
+
+.homeBaseline {
+	display: block;
+	font-family: 'Droid Sans';
+	text-align: center;
+	color: #fff;
+	font-size: 2em;
+}
+
+nav {
+	padding: 5px;
+	background-color: rgba(0,0,0,.1);
+}
+
+.menu a {
+	color: #fff;
+	text-shadow: 1px 1px 1px #333;
+	padding: 7px;
+	transition: .1s ease all;
+}
+
+.menu a:hover {
+
+	background-color: rgba(255,255,255,.3);
+	/*	color: #214775; */
+	color: #fff;
+	border-bottom: 1px solid;
+	text-decoration: none;
+}
+
+.menu {
+
+	color: #fff;
+	display: block;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	font-family: 'Droid Sans';
+}
+
+nav ul li {
+
+	display: inline-block;
+	font-size: 2em;
+	margin: 5px;
+}
+
+nav ul li a {
+
+	color: #fff;
+	font-family: 'Droid Sans';
+}
+
+.homeMenu {
+	margin: auto;
+	display: block;
+	border: 1px solid;
+}
+
+.aboutMe {
+
+	background-color: rgba(255,255,255,.1);
+	padding: 10px;
+	max-width: 50%;
+	display: block;
+	margin: auto;
+	border-radius: 5px;
+	font-family: 'Droid Sans';
+	color: #fff;
+	font-size: 1.3em;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.aboutMe p {
+	line-height: 170%;
+}
+
+.formContact {
+	display: block;
+	margin: auto;
+	width: 50%;
+	margin-top: 10%;
+}
+
+.formContact input {
+	width: 100%;
+	height: 50px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	background-color: #183454;
+	border: 0;
+	padding: 3px;
+	opacity: .8;
+	color: #fff;
+	font-family: 'Droid Sans';
+	transition: .2s ease all;
+}
+
+.formContact input:focus {
+	font-size: 1.1em;
+}
+
+.formContact textarea {
+
+	display: block;
+	margin: auto;
+	margin-top: 5px;
+	background-color: #183454;
+	border: 0;
+	width: 100%;
+	min-height: 150px;
+}
+
+.formContact input[type="submit"] {
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	width: 40%;
+}
+
+.formContact label {
+	display: block;
+	margin: 0;
+	color: #fff;
+	font-size: 1.1em;
+	font-family: 'Droid Sans';
+}
+
+.workWrap {
+	margin-top: 1%;
+	margin-left: 5%;
+}
+
+.soloProject {
+
+	width: 30%;
+	transition: .3s ease all;
+	margin: 2px;
+	display: inline-block;
+}
+
+.soloProject img {
+	width: 100%;
+	transition: .2s ease all;
+}
+
+.projDesc {
+
+	display: none;
+	position: absolute;
+	margin-top: -10%;
+	margin-left: 10%;
+	padding: 3px;
+}
+
+.projTitle {
+
+	display: block;
+	font-family: 'Droid Sans';
+	font-weight: 700;
+	text-align: center;
+	font-size: 2em;
+	color: #fff;
+}
+
+.popUp {
+
+	display: none;
+	position: absolute;
+	top: 50%;
+	background-color: red;
+	left: 0;
+	left: 50%;
+}
+
+.aboutComp {
+	display: block;
+	margin: auto;
+}
+
+.aboutComp h2 {
+
+	text-align: center;
+	margin: 0;
+	color: #fff;
+	font-family: 'Droid Sans';
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.aboutIcon {
+
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 2.5em;
+	color: #fff;
+	margin-bottom: 5px;
+}
+
+.soloAbout ul {
+
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	margin-top: 15px;
+}
+
+.soloAbout ul li {
+
+	font-size: 1.4em;
+	font-family: 'Droid Sans';
+	color: #fff;
+	margin: 10px;
+}
+
+.soloAbout {
+
+}
+
+
+.respMenu {
+	display: none;
+}
+@media screen and (max-width: 360px) {
+	.homeMe {
+
+		margin-top: 50%;
+	}
+
+	nav {
+
+		display: none;
+	}
+
+	.formContact {
+		width: 100%;
+		margin-top: 50px;
+	}
+/*
+ 	.respMenu {
+ 		display: inline;
+ 	}
+
+ 	.respMenu i {
+
+ 		color: #fff;
+ 		}*/
+
+ 		.soloProject {
+
+ 			width: 100%;
+ 			margin: 0;
+ 		}
+
+ 		.soloProject img {
+
+ 			width: 100%;
+ 			margin: 0;
+ 			display: block;
+ 		}
+
+ 	}
+
+ 	.slide-animation-setup {
+ 		-webkit-transition: .5s linear all;
+ 		--moz-transition: .5s linear all;
+ 		--o-transition: .5s linear all;
+ 		transition: .5s linear all;
+ 		position: relative;
+ 		left: 100%;
+ 		opacity: 0;
+ 	}
+
+ 	.slide-animation-setup.slide-animation-start {
+ 		left: 0;
+ 		opacity: 1;
+ 	}
+
+
+
+
+ 	.animate-enter, 
+.animate-leave
+{ 
+    -webkit-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -moz-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -ms-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -o-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    position: relative;
+    display: block;
+} 
+ 
+.animate-enter.animate-enter-active, 
+.animate-leave {
+    opacity: 1;
+    top: 0;
+    height: 30px;
+}
+ 
+.animate-leave.animate-leave-active,
+.animate-enter {
+    opacity: 0;
+    top: -50px;
+    height: 0px;
+}

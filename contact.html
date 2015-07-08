@@ -1,0 +1,16 @@
+<div class="container">
+	<div class="formContact">
+		<form method="post">
+			<label>Votre nom
+				<input type="text" name="name" ng-model="mail.name">
+			</label>
+			<label>Votre mail
+				<input type="text" name="mail" ng-model="mail.address">
+			</label>
+			<label>Votre message
+				<textarea ng-model="mail.content"></textarea>
+			</label>
+			<input type="submit" class="formSub" ng-click="sendMail(mail)">
+		</form>
+	</div>
+</div>

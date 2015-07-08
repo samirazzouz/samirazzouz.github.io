@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Samir AZZOUZ</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="fa/css/font-awesome.css">
+	<!-- <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'> -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body ng-app="sam">
+	<header>
+		<div class="respMenu">
+			<i class="fa fa-car fa-2x"></i>
+		</div>
+		<div id="logoHeader">
+			<a href="#/"><img src="img/logoS.png"></a>
+		</div>
+		<div id="rightHeader">
+			<i class="fa fa-linkedin-square linkedIn fa-2x"></i>
+			<i class="fa fa-flickr linkedIn fa-2x"></i>
+			<i class="fa fa-github-square linkedIn fa-2x"></i>
+		</div>
+	</header>
+	<nav>
+		<span class="menu"><a href="#/about">A propos</a> / <a href="#/work">Réalisations</a> / <a href="#/contact">Contact</a></span>
+	</nav>
+	<div ng-view class="animate"></div>
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-route.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
