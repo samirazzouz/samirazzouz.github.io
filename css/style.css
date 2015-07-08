@@ -206,10 +206,12 @@ nav ul li a {
 
 .projDesc {
 
-	display: none;
+	display: block;
+	margin: auto;
 	position: absolute;
 	margin-top: -10%;
-	margin-left: 10%;
+	text-align: center;
+	border: 1px solid red;
 	padding: 3px;
 }
 
