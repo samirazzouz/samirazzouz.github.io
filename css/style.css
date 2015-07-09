@@ -119,9 +119,9 @@ nav ul li a {
 
 .aboutMe {
 
-	background-color: rgba(255,255,255,.1);
-	padding: 10px;
-	max-width: 50%;
+/*	background-color: rgba(255,255,255,.1);
+*/	padding: 10px;
+	/*max-width: 50%;*/
 	display: block;
 	margin: auto;
 	border-radius: 5px;
@@ -130,6 +130,9 @@ nav ul li a {
 	font-size: 1.3em;
 	margin-top: 50px;
 	margin-bottom: 30px;
+	border: 1px solid #fff;
+	border-bottom: 3px solid #fff;
+
 }
 
 .aboutMe p {
@@ -212,7 +215,7 @@ nav ul li a {
 	position: absolute;
 	margin-top: -10%;
 	text-align: center;
-	background-color: rgba(255,255,255,.9);
+	background-color: rgba(255,255,255,.8);
 	padding: 3px;
 	border-bottom: 3px solid #333;
 }
@@ -282,7 +285,8 @@ nav ul li a {
 	margin: 10px;
 }
 
-.soloAbout {
+.soloAbout hr {
+	display: none;
 }
 
 #respMenu {
@@ -292,6 +296,8 @@ nav ul li a {
 .respLinks {
 	display: none;
 }
+
+
 
 @media screen and (max-width: 360px) {
 	.homeMe {
@@ -390,6 +396,24 @@ nav ul li a {
 		display: block;
 		margin: 5px;
 		margin-left: 10px;
+	}
+
+	.aboutMe {
+
+		width: 90vw;
+		border: 0;
+		border-bottom: 1px solid #fff;
+		border-top: 1px solid #fff;
+	}
+
+	.soloAbout {
+
+		margin-top: 30px;
+	}
+
+	.soloAbout hr {
+		display: block;
+		width: 50%;
 	}
 }
 
