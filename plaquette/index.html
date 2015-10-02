@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+	<div id="buttons">
+		<button id="butHor">Horizontal</button>
+		<button id="butVer">Vertical</button>
+	</div>
+	<div id="plaquetteHor">
+		<img src="img/cover.png">
+		<img src="img/edito.png">
+		<img src="img/ico.png">
+		<img src="img/why.png">
+		<img src="img/env.png">
+		<img src="img/relactionnaire.png">
+		<img src="img/relinsti.png">
+		<img src="img/benef.png">
+		<img src="img/techno.png">
+		<img src="img/end2.png">
+	</div>
+	<div id="plaquetteVer">
+		<img src="img/cover.png">
+		<img src="img/edito.png">
+		<img src="img/ico.png">
+		<img src="img/why.png">
+		<img src="img/env.png">
+		<img src="img/relactionnaire.png">
+		<img src="img/relinsti.png">
+		<img src="img/benef.png">
+		<img src="img/techno.png">
+		<img src="img/end2.png">
+	</div>
+
+	<script>
+		var butHor = $("#butHor"),
+		butVer = $("#butVer"),
+		plaquetteHor = $("#plaquetteHor"),
+		plaquetteVer = $("#plaquetteVer"),
+		body = $("body").width();
+
+
+		butHor.click(function(event) {
+			plaquetteVer.hide('fast', function() {
+				$('body').width(7000);
+				plaquetteHor.show('fast');
+			});
+		});
+
+		butVer.click(function(event) {
+			plaquetteHor.hide('fast', function () {
+				$('body').width(body);
+				plaquetteVer.show('fast');
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+	background-color: #333;
+}
+
+#plaquetteVer {
+	display: block;
+	margin: auto;
+}
+
+#plaquetteVer img {
+	display: block;
+	margin:auto;
+	width: 40%;
+	margin-top: 5px;
+}
+
+#plaquetteHor {
+	margin-top: 10px;
+	display: none;
+	/* display: inline-block; */
+}
+
+#plaquetteHor img {
+	display: inline-block;
+	width: 600px;
+}
+
+#buttons {
+	position: fixed;
+	margin: 5px;
+}
+
+#buttons button {
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	border: 0;
+	outline: none;
+	padding: 5px;
+	border-radius: 5px;
+}
