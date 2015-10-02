@@ -38,3 +38,14 @@ body {
 	padding: 5px;
 	border-radius: 5px;
 }
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	#plaquetteVer img {
+		width: 100%;
+	}
+
+	#buttons {
+		display: none;
+	}
+}
